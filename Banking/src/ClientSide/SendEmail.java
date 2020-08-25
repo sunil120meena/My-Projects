@@ -26,7 +26,7 @@ public class SendEmail {
     boolean sendEmail(String to,String subject,String msgbody) throws Exception
     {
         final String username = "meena120sunil@gmail.com";
-        final String password = "sunilk120";
+        final String password = "Enter password";
 
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
